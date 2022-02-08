@@ -1,0 +1,6 @@
+# exclude the build directory
+build/
+
+# exclude the bin directory
+bin/
+
