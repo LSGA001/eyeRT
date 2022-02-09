@@ -6,10 +6,13 @@
 
 int main() {
 
-	/* Load config
-	  	and parameters */
+	/* Read config and 
+	 		load parameters */
 	//load_config();
 	
+	/* Calculate variables */
+	//calculate_vars();
+
 	/* Initialize GRIN matrix */
 	//make_grin();
 	
