@@ -2,9 +2,14 @@
 #include <physicsFUNs.h>
 #include <graphicsFUNs.h>
 
-
+/* Shortened namespace names */
+namespace pFs = physicsFUNs;
+namespace gFs = graphicsFUNs;
 
 int main() {
+
+	pFs::testPhysicsLib();
+	gFs::testPlot();
 
 	/* Read config and 
 	 		load parameters */
